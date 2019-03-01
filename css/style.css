@@ -58,7 +58,7 @@ p {
     top: 40%;
   }
   #index-banner .section {
-    top: 10%;
+    top: 5%;
   }
 }
 .carouselLink{
@@ -69,6 +69,10 @@ padding:0px;
   #index-banner .section {
     top: 0;
   }
+}
+nav .brand-logo {
+  color: #444;
+  font-size: 1.6rem;
 }
 
 .icon-block {
