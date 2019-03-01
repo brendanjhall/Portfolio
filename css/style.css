@@ -9,9 +9,21 @@
   border-radius: 3px;
 }
 
+.carouselLink{
+position: relative;
+top:-75px;
+}
+.title1 {
+ 
+ font-weight: bold;
+}
+.send{
+ -webkit-text-fill-color: white;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
+  font-size: 1.7rem;
 }
 
 p {
@@ -42,7 +54,7 @@ p {
   }
 }
 .carouselLink{
-  margin: 0;
+padding:0px;
 }
 
 @media only screen and (max-width : 600px) {
