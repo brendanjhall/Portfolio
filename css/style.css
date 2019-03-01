@@ -8,7 +8,9 @@
  .image{
   border-radius: 3px;
 }
-
+.image1{
+  height: 400px;
+}
 .carouselLink{
 position: relative;
 top:-65px;
