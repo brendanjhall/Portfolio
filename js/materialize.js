@@ -15,7 +15,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 // ready contact form 
 $(document).ready(function(){ 
   $('.scrollspy').scrollSpy();
-  
+  $('.tooltipped').tooltip();
 //carousel start and link on click
   $('.carousel').carousel();
   $(".carouselLink").click(function(){window.open($(this).data("src"), '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')
