@@ -7,7 +7,15 @@
  */
 
 
-
+.infoIcon{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color:#1565c0;
+  border-radius: 30px;
+  
+  background-color: white
+}
  
   /* Css Colors above */
  .caroImage{
