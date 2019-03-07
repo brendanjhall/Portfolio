@@ -10,33 +10,47 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-crossorigin="anonymous">  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Lato|Patrick+Hand|Roboto+Slab" rel="stylesheet">
   <style>
 
   </style>
 </head>
 
+<!-- Stay out of the Head tag, all your website changes should be below -->
+
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Brendan Hall</a>
       <ul class="right hide-on-med-and-down">
-        <li><a style="height: 60px;" href="#" target="_blank">linked <i
-              class="fab fa-linkedin"></i>
-          </a> </li>
+
+        <!-- Navbar in Desktop mode, Changes need to be done to both desktop and Mobile NavBar -->
+        <li>
+          <!-- Linked IN tag  for desktop NAvBar is here, href="your link in quotations" -->
+                                     
+          <a style="height: 60px;" href="#" target="_blank">linked <i class="fab fa-linkedin"></i></a>
+        </li>
+     
+
+          <!-- dont mess with these they are navbar and scroll page to appropriate place -->
         <li><a style="height: 60px;" href="#aboutMe">About Me<i class="fa fa-user" aria-hidden="true"></i> </a></li>
         <li><a style="height: 60px;" href="#work">My Work <i class="fa fa-briefcase" aria-hidden="true"></i> </a></li>
-        <li><a style="height: 60px;" href="#contact">Contact Me <i class="fa fa-envelope" aria-hidden="true"></i> </a></li>
+        <li><a style="height: 60px;" href="#contact">Contact Me <i class="fa fa-envelope" aria-hidden="true"></i> </a>
+        </li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
+        <!-- Nav bar linked in for mobile sized screens -->
         <li><a style="height: 60px;" href="#">linkedIn <i class="fab fa-linkedin"></i></a>
         </li>
+
+        <!-- <==================================================> -->
         <li><a style="height: 60px;" href="#aboutMe">About Me<i class="fa fa-user" aria-hidden="true"></i> </a></li>
         <li><a style="height: 60px;" href="#work">My Work<i class="fa fa-briefcase" aria-hidden="true"></i> </a></li>
-        <li><a style="height: 60px;" href="#contact">Contact Me<i class="fa fa-envelope" aria-hidden="true"></i> </a></li>
+        <li><a style="height: 60px;" href="#contact">Contact Me<i class="fa fa-envelope" aria-hidden="true"></i> </a>
+        </li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
@@ -46,49 +60,63 @@ crossorigin="anonymous">
   <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container ">
-        
+
         <h2 class="header center title1  grey-text text-darken-3 ">Revit & AutoCad Designer</h2>
         <div class="row center">
           <h5 class="header col s12  title1 grey-text  text-darken-3">Residential And Commercial Design</h5>
         </div>
         <div class="row center">
-          <a href="#contact" id="download-button" class="btn-large waves-effect waves-light grey darken-3 pulse">Contact Me </a>
+          <a href="#contact" id="download-button" class="btn-large waves-effect waves-light grey darken-3 pulse">Contact
+            Me </a>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax image1"><img style="height: 900px;width: 1000px;margin-bottom: 125px;"src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax image1"><img style="height: 900px;width: 1000px;margin-bottom: 125px;" src="background1.jpg"
+        alt="Unsplashed background img 1"></div>
   </div>
 
-  <div class="container Ccontain" >
+  <div class="container Ccontain">
     <div class="section no-pad-bot">
 
       <!--   Icon Section   -->
-      <div class="row col 12"id="work">
+      <div class="row col 12" id="work">
 
-     
 
-          <div class="carousel   scrollspy "  >  
-            <div> <h4 class="header col s12 center ">My Work</h4>
-            <div class="carousel-item  col l6 m8 s12 center" href="#one!"><img class="image" src="https://media.giphy.com/media/2vq7CSYKXN31vyPU29/giphy.gif">
+
+        <div class="carousel   scrollspy ">
+          <div>
+            <h4 class="header col s12 center ">My Work</h4>
+<!-- <===================Put carousel items below me================> -->
+
+
+
+<!-- <================Caraousel 1===================> -->
+            <div class="carousel-item  col l6 m8 s12 center" href="#one!"><img class="image"
+                src="./Revit.gif">
               <a>
-                <h4 class="center carouselLink" data-src="#"><i class="material-icons small">link</i>Revit And Cad Stuff</h4>
+                <h4 class="center carouselLink" data-src="#"><i class="material-icons small">link</i>Revit And Cad Stuff
+                </h4>
               </a>
             </div>
-            <div class="carousel-item  col l6 m8 s12" href="#one!"><img class="image" src="https://media.giphy.com/media/2vq7CSYKXN31vyPU29/giphy.gif">
+
+<!-- <====================carousel 2====================> -->
+            <div class="carousel-item  col l6 m8 s12" href="#one!"><img class="image"
+                src="./CAD.gif">
               <a>
-                <h4 class="center carouselLink" data-src="#"><i class="material-icons small">link</i>Revit And AutoCad Stuff</h4>
+                <h4 class="center carouselLink" data-src="#"><i class="material-icons small">link</i>Revit And AutoCad
+                  Stuff</h4>
               </a>
             </div>
-            <div class="carousel-item  col l6 m8 s12" href="#one!"><img class="image" src="https://media.giphy.com/media/2vq7CSYKXN31vyPU29/giphy.gif">
-              <a>
-                <h4 class="center carouselLink" data-src="#"><i class="material-icons small">link</i>Revit And Cad Stuff</h4>
-              </a>
-            </div></div>
-            
-            
+
+
+
+          <!-- <=========================Put carousel items above me==================> -->
           </div>
+
+
+        </div>
 
       </div>
 
@@ -104,7 +132,8 @@ crossorigin="anonymous">
         </div>
       </div>
     </div>
-    <div class="parallax image2"><img style="height: 900px;width: 1000px;"  src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax image2"><img style="height: 900px;width: 1000px;" src="background2.jpg"
+        alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container ">
@@ -113,17 +142,19 @@ crossorigin="anonymous">
 
         <h3><i class="mdi-content-send white-text"></i></h3>
         <h4 class="center">Contact Me</h4>
-        
 
-        <form class="col l12 m12 s12 center" role="form" action="https://postmail.invotes.com/send" method="post" id="email_form">
+
+        <form class="col l12 m12 s12 center" role="form" action="https://postmail.invotes.com/send" method="post"
+          id="email_form">
           <div class="input-field col s12">
-              <i class="material-icons prefix">subject</i>
+            <i class="material-icons prefix">subject</i>
             <input class="rounded form-control" type="text" id="subject" name="subject" placeholder="Subject" />
             <label for="subject">Subject</label>
           </div>
           <div class="input-field col s12">
-              <i class="material-icons prefix">message</i>
-            <textarea class="rounded form-control materialize-textarea" name="text" placeholder="Message" id="message" maxlength="140" rows="7"></textarea>
+            <i class="material-icons prefix">message</i>
+            <textarea class="rounded form-control materialize-textarea" name="text" placeholder="Message" id="message"
+              maxlength="140" rows="7"></textarea>
             <label for="message">Message</label>
             <span id="contact" class="section scrollspy" class="help-block">
               <p id="characterLeft" class="help-block ">You have reached the limit</p>
@@ -132,7 +163,7 @@ crossorigin="anonymous">
 
           </div>
 
-          <input type="hidden" name="access_token" value="7cw02zgebz6fyuo4bzobz7es" /> 
+          <input type="hidden" name="access_token" value="7cw02zgebz6fyuo4bzobz7es" />
           <!-- return urls can be fully qualified -OR-
                  start with / for root relative -OR-
                  start with . for url relative -->
@@ -142,12 +173,13 @@ crossorigin="anonymous">
 
           <!-- set the reply-to address -->
           <div class="input-field col s12 m6">
-              <i class="material-icons prefix">email</i>
+            <i class="material-icons prefix">email</i>
             <input class="rounded form-control" id="email" type="email" name="reply_to" placeholder="Your Email" />
             <label for="email">Email</label> </div>
-          <div class="input-field col s12 m6">  
-              <i class="material-icons prefix">phone</i>
-            <input class="rounded" id="icon_telephone" type="number"  name="extra_phone_number" placeholder="Phone Number" />
+          <div class="input-field col s12 m6">
+            <i class="material-icons prefix">phone</i>
+            <input class="rounded" id="icon_telephone" type="number" name="extra_phone_number"
+              placeholder="Phone Number" />
             <label for="icon_telephone">Telephone</label>
           </div>
 
@@ -156,7 +188,8 @@ crossorigin="anonymous">
           <!-- <input type="hidden"
                         name="sms_format" value="true" /> -->
 
-          <input class="btn waves-effect  waves-light grey darken-3 send " id="submit_form" type="submit" value="Send" />
+          <input class="btn waves-effect  waves-light grey darken-3 send " id="submit_form" type="submit"
+            value="Send" />
 
         </form>
       </div>
@@ -167,11 +200,12 @@ crossorigin="anonymous">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-            <h4 class="header col s12  title1 ">A Little About Me</h4>
+          <h4 class="header col s12  title1 ">A Little About Me</h4>
         </div>
       </div>
     </div>
-    <div class="parallax"><img style="height: 1200px;width: 800px; margin-bottom: 100px;"src="./background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img style="height: 1200px;width: 800px; margin-bottom: 100px;" src="./background3.jpg"
+        alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer blue darken-3 ">
@@ -183,7 +217,11 @@ crossorigin="anonymous">
         </div>
         <div class="col l6 m6  s12">
           <h5 style="padding: 0;" class="white-text section scrollspy" id="aboutMe">About Me</h5>
-          <p class="grey-text text-lighten-4">I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. </p>
+          <p class="grey-text text-lighten-4">I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm
+            Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm
+            Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm
+            Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm
+            Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. I'm Brendan. </p>
 
 
         </div>
@@ -191,18 +229,7 @@ crossorigin="anonymous">
         <div class="col l4 m12 center s12">
           <h5 class="white-text">View My Revit And Auto-Cad Files</h5>
           <ul>
-            <!-- <li><a class="white-text" href="https://github.com/erict54757/Project-3" target="_blank" rel="noopener noreferrer">BarberShop React App</a></li>
-            <li><a class="white-text" href="https://github.com/erict54757/EatTheBurger" target="_blank">EatTheBurger</a></li>
-            <li><a class="white-text" href="https://github.com/erict54757/Synchrony" target="_blank">Synchrony Dating
-                App</a></li>
-            <li><a class="white-text" href="https://github.com/erict54757/BAMAZON" target="_blank">Back-end Inventory
-                Node</a></li>
-            <li><a class="white-text" href="https://github.com/erict54757/One-feed" target="_blank">One-Feed API App</a></li>
-            <li><a class="white-text" href="https://github.com/erict54757/Train-Schedule" target="_blank">Train-Schedule
-                App</a></li>
-            <li><a class="white-text" href="https://github.com/erict54757/Word-Guess" target="_blank">Word-Guess</a></li>
-            <li><a class="white-text" href="https://github.com/erict54757/Trivia-Game" target="_blank">Poke-Trivia Game</a></li>
-            <li><a class="white-text" href="https://github.com/erict54757/crystal-game" target="_blank">Poke-Number-Guess</a></li> -->
+          
           </ul>
         </div>
       </div>
