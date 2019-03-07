@@ -7,7 +7,7 @@
  */
 
 
- 
+
  
   /* Css Colors above */
  .image{
@@ -17,10 +17,7 @@
   height: 400px;
 }
 
-.carouselLink{
-position: relative;
-top:-65px;
-}
+
 .title1 {
   color: #444;
  font-weight: bold;
@@ -61,9 +58,7 @@ p {
     top: 5%;
   }
 }
-.carouselLink{
-padding:0px;
-}
+
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {

@@ -22,10 +22,21 @@ $(document).ready(function(){
   
   })
   $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
+   indicators: true,fullWidth: true,
+    
+    
   });
- 
+//   $('#carousel-next').on('touchstart', function (e) {
+//     e.preventDefault();
+//     e.stopPropagation();
+//     $('#carouselFirst').carousel('next');
+// });
+
+// $('#carousel-prev').on('touchstart', function (e) {
+//     e.preventDefault();
+//     e.stopPropagation();
+//     $('#carouselFirst').carousel('prev');
+// });
   
  // contact form 
   $('#characterLeft').text('140 characters left');
