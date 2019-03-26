@@ -10,12 +10,13 @@
 .infoIcon{
   position: absolute;
   top: 15px;
-  right: 25px;
+  left: 25px;
   color:#1565c0;
   border-radius: 30px;
   
   background-color: white
 }
+
  
   /* Css Colors above */
  .caro{
@@ -25,7 +26,7 @@ margin-top:-60px;
 }
 .caroImage{
   border-radius: 5px;
-  height:100%;
+  height:150%;
   width: auto;
 }
 .image1{
@@ -74,6 +75,11 @@ p {
   }
   .projectTitle{
     padding-bottom: 30px;
+  }
+  .caroImage{
+    border-radius: 5px;
+    height:100%;
+    width: auto;
   }
 }
 
