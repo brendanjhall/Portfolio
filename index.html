@@ -219,7 +219,7 @@
           id="email_form">
           <div class="input-field col s12">
             <i class="material-icons prefix ">subject</i>
-            <input class="rounded form-control" type="text" id="subject" name="subject" placeholder="Subject" />
+            <input class="rounded form-control" type="text" id="subject" name="subject" placeholder="Subject" maxlength="100"/>
             <label for="subject">Subject</label>
           </div>
           <div class="input-field col s12">
@@ -245,12 +245,14 @@
           <!-- set the reply-to address -->
           <div class="input-field col s12 m6 ">
             <i class="material-icons prefix ">email</i>
-            <input class="rounded form-control" id="email" type="email" name="reply_to" placeholder="Your Email" />
+            <input class="rounded form-control" id="email" type="email" name="reply_to" placeholder="Your Email" maxlength="40"/>
             <label for="email">Email</label> </div>
           <div class="input-field col s12 m6">
             <i class="material-icons prefix ">phone</i>
-            <input class="rounded" id="icon_telephone" type="number" name="extra_phone_number"
-              placeholder="Phone Number" />
+            <input class="rounded" id="icon_telephone" type="number" name="extra_phone_number" 
+              placeholder="Phone Number"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+              type = "number"
+              maxlength = "10"/>
             <label for="icon_telephone">Telephone</label>
           </div>
 
