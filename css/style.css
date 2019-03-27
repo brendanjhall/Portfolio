@@ -6,6 +6,13 @@
  * Made By MaterializeCSS.com
  */
 
+ .download-button{
+  position: relative;
+  font-size: 2.5rem;
+  left: 0px;
+  top:7px;
+
+ }
 
 .infoIcon{
   position: absolute;
@@ -169,6 +176,15 @@ nav .brand-logo {
 
 footer.page-footer {
   margin: 0;
-}
+} 
+.download-buttonBottom{
+  position: relative;
+  font-size: 2rem;
+  left: 0px;
+  top:10px;
+  color: white !important
+ 
+
+ }
 div {
   font-family: 'Roboto Slab', serif; }
