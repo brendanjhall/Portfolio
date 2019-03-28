@@ -13,6 +13,9 @@
   top:7px;
 
  }
+ .links{
+   margin-left: 15%;
+ }
 
 .infoIcon{
   position: absolute;
@@ -133,8 +136,12 @@ p {
   .projectTitle{
     padding-bottom: 30px;
   }
+  .links{
+    margin-left: 8%;
+  }
   
 }
+
 
 
 @media only screen and (max-width : 600px) {
@@ -146,6 +153,12 @@ position: absolute;
 left: 25%;
 right: 25%;
 bottom: -10px;
+  }
+  .links{
+    margin-left: 5%;
+    font-size: .7rem;
+    white-space: nowrap;
+
   }
   .caro{
     margin-top: -40px;
@@ -160,6 +173,15 @@ bottom: -10px;
   top: 5px;
   left: 15px;
 }
+.download-buttonBottom{
+  position: relative;
+  font-size: 1.5rem;
+  left: 0px;
+  top:10px;
+  color: white !important
+ 
+
+ }
 }
 
 nav .brand-logo {
@@ -177,7 +199,7 @@ nav .brand-logo {
 footer.page-footer {
   margin: 0;
 } 
-.download-buttonBottom{
+/* .download-buttonBottom{
   position: relative;
   font-size: 2rem;
   left: 0px;
@@ -185,6 +207,6 @@ footer.page-footer {
   color: white !important
  
 
- }
+ } */
 div {
   font-family: 'Roboto Slab', serif; }
